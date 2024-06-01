@@ -10,6 +10,7 @@ const _config = {
   cloudName: process.env.CLOUDINARY_NAME,
   apiKey: process.env.CLOUDINARY_API_KEY,
   apiSecret: process.env.CLOUDINARY_API_SECRET,
+  frontEnd: process.env.FRONTEND_URL || "http://localhost:3000",
 };
 
 export const config = Object.freeze(_config);
